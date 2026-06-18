@@ -12,7 +12,7 @@ const projects = [
     desc: "A premium design system showcase displaying reusable components, interactive dashboards, mobile responsive layouts, and modern UI tokens for high-performance web applications.",
     image: "/digitools.jpg",
     github: "https://github.com/kibriya41/Assignment-6",
-    live: "https://grand-kitten-d6b8e7.netlify.app/"
+    live: "https://digi-tools-41.netlify.app/"
   },
    {
     title: "TutorFlux: Smart Tutor Booking & EdTech Platform",
