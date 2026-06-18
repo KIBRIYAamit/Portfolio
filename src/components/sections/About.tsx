@@ -46,7 +46,7 @@ export function About() {
       <div className="flex flex-col md:flex-row items-center md:items-start gap-gutter w-full max-w-4xl mx-auto">
         {/* Portrait container */}
         <div className="w-64 h-64 md:w-80 md:h-80 shrink-0 relative rounded-2xl overflow-hidden glass-card group">
-          <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent z-10 transition-colors duration-300"></div>
+          <div className="absolute inset-0 bg-linear-to-t from-background via-transparent to-transparent z-10 transition-colors duration-300"></div>
           <Image
             alt="Professional Portrait"
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
