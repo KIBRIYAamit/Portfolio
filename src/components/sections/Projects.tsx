@@ -7,6 +7,14 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const projects = [
   {
+    title: "Gigly: One Platform. Endless Talent. Freelance Marketplace",
+    tags: ["Next.js", "JavaScript", "MongoDB", "Node.js", "Tailwind CSS"],
+    desc: "A full-stack freelance marketplace connecting clients with skilled professionals. Features task browsing, freelancer profiles, secure proposals, verified payments, and a seamless hiring experience — fast, secure, and hassle-free.",
+    image: "/gigly.png",
+    github: "https://github.com/KIBRIYAamit/gigly",
+    live: "https://gigly-gamma.vercel.app/"
+  },
+  {
     title: "DigiTools: Premium Design System & UI/UX Showcase",
     tags: ["React.js", "Tailwind CSS", "Hero Ui"],
     desc: "A premium design system showcase displaying reusable components, interactive dashboards, mobile responsive layouts, and modern UI tokens for high-performance web applications.",
