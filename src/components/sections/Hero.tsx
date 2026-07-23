@@ -14,7 +14,7 @@ export function Hero() {
   const profileContainerRef = useRef<HTMLDivElement | null>(null);
   const contactBtnRef = useMagneticEffect(0.3) as React.RefObject<HTMLAnchorElement | null>;
 
-  const roles = ["Problem Solver", "Web Developer", "Web Designer"];
+  const roles = ["Full Stack Developer", "Web Designer", "Problem Solver"];
   const [roleIndex, setRoleIndex] = useState(0);
   const [isRoleTransitioning, setIsRoleTransitioning] = useState(false);
 
@@ -366,11 +366,7 @@ export function Hero() {
 
           {/* Card 3: Experience */}
           <div className="orbit-item absolute bottom-[-40px] right-[10px] glass-card flex items-center gap-3 py-2 px-4 rounded-xl border border-tertiary/20 hover:scale-105 transition-all">
-            <span className="material-symbols-outlined text-tertiary text-xl" style={{ fontVariationSettings: "'FILL' 1" }}>work</span>
-            <div className="flex flex-col">
-              <span className="text-sm font-extrabold text-on-surface">6 Months</span>
-              <span className="text-[10px] text-on-surface-variant font-medium">Experience</span>
-            </div>
+         
           </div>
         </div>
       </div>
