@@ -7,11 +7,12 @@ import {
 import {
   RiNextjsFill, RiTailwindCssFill
 } from 'react-icons/ri';
-import {SiExpress, SiMongodb, } from 'react-icons/si';
+import {SiExpress, SiMongodb, SiTypescript} from 'react-icons/si';
 
 import { motion } from "framer-motion";
 
 const skills = [
+  { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
   { name: "JavaScript", icon: FaJs, color: "#F7DF1E" },
   { name: "HTML5", icon: FaHtml5, color: "#E34F26" },
   { name: "CSS3", icon: FaCss3Alt, color: "#1572B6" },
