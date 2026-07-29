@@ -175,8 +175,8 @@ export function Hero() {
           </p>
         </div>
 
-        {/* CTA Button */}
-        <div className="mt-stack-lg flex gap-4">
+        {/* CTA Buttons */}
+        <div className="mt-stack-lg flex flex-wrap gap-4">
           <a
             href="#contact"
             ref={contactBtnRef}
@@ -185,6 +185,15 @@ export function Hero() {
             {/* Hover shine effect */}
             <span className="absolute inset-0 bg-white/20 -skew-x-12 translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000 ease-out" />
             Say Hello <span className="material-symbols-outlined text-sm">send</span>
+          </a>
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download="Kibriya_Amit_Resume.pdf"
+            className="border border-primary/40 text-on-surface hover:text-primary hover:border-primary px-7 py-3 rounded-full font-label-md flex items-center gap-2 transition-all bg-primary/5 hover:bg-primary/10 z-20 relative overflow-hidden group shadow-sm hover:shadow"
+          >
+            Resume <span className="material-symbols-outlined text-sm transition-transform group-hover:translate-y-0.5">download</span>
           </a>
         </div>
       </div>

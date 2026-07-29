@@ -96,10 +96,16 @@ export function About() {
             Proficient in React.js, Next.js and Node.js, I build scalable,  high-performance applications. Expertise in MongoDB. I deliver innovative real-time systems and impactful solutions.
           </p>
           
-          <button className="flex items-center gap-2 px-6 py-3 bg-transparent border border-primary text-primary rounded-lg font-label-md text-label-md hover:bg-primary/10 transition-colors cursor-pointer group">
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download="Kibriya_Amit_Resume.pdf"
+            className="inline-flex items-center gap-2 px-6 py-3 bg-transparent border border-primary text-primary rounded-lg font-label-md text-label-md hover:bg-primary/10 transition-colors cursor-pointer group"
+          >
             Download Resume
             <span className="material-symbols-outlined text-[20px] transition-transform group-hover:translate-y-0.5">download</span>
-          </button>
+          </a>
         </div>
       </div>
     </section>

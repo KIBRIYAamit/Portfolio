@@ -169,6 +169,17 @@ export function Header({ darkMode, setDarkMode, activeSection }: HeaderProps) {
 
           {/* Right controls */}
           <div className="flex items-center gap-2">
+            {/* Resume Button */}
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              download="Kibriya_Amit_Resume.pdf"
+              className="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-full border border-primary/30 bg-primary/10 hover:bg-primary/20 text-primary font-semibold text-xs md:text-sm transition-all shadow-sm hover:shadow"
+            >
+              <span className="material-symbols-outlined text-[16px]">description</span>
+              Resume
+            </a>
 
             {/* Theme toggle with ripple */}
             <button
@@ -223,7 +234,7 @@ export function Header({ darkMode, setDarkMode, activeSection }: HeaderProps) {
         <div className="flex items-center justify-between px-6 pt-8 pb-6 border-b border-primary/10">
           <a href="#home" onClick={handleNavClick} className="flex items-center gap-2.5 group">
             <div className="drop-shadow-[0_0_8px_rgba(59,130,246,0.45)]">
-              <Image src="/logo.png" alt="Kibriya Amit" width={48} height={48} className="object-contain h-12 w-auto" />
+              <Image src="/logo.jpg" alt="Kibriya Amit" width={48} height={48} className="object-contain h-12 w-auto" />
             </div>
             <span className="text-base font-bold font-headline-md text-on-surface">Kibriya Amit</span>
           </a>
@@ -255,7 +266,17 @@ export function Header({ darkMode, setDarkMode, activeSection }: HeaderProps) {
         </nav>
 
         {/* Drawer footer */}
-        <div className="px-6 py-6 border-t border-primary/10">
+        <div className="px-6 py-6 border-t border-primary/10 flex flex-col gap-4">
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            download="Kibriya_Amit_Resume.pdf"
+            className="flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl bg-primary text-on-primary font-semibold text-sm shadow-md hover:bg-primary/90 transition-all"
+          >
+            <span className="material-symbols-outlined text-[18px]">download</span>
+            Download Resume
+          </a>
           <p className="text-xs text-on-surface-variant text-center">
             © {new Date().getFullYear()} Kibriya Amit
           </p>
