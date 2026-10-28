@@ -28,7 +28,7 @@ const projects = [
     desc: "A full-stack EdTech platform connecting students with verified expert tutors. Features smart conflict-free booking, tutor profiles, session management dashboard, digital tokens, and personalized learning experiences.",
     image: "/tutorflux-1.png",
     github: "https://github.com/kibriya41/TutorFlux",
-    live: "https://tutorflux.onrender.com/"
+    live: "https://tutor-flux-one.vercel.app/"
   },
   {
     title: "Tile Aesthetic: Premium Marketplace & Interior Design Platform",
